@@ -1,14 +1,16 @@
 # Java compiled files
-
 *.class
 
-# VS code
+# Log files
+*.log
+
+# VS Code
 .vscode/
 
 # IntelliJ
 .idea/
 
-# Build folders 
+# Build folders
 out/
 target/
 
