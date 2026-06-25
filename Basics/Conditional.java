@@ -2,20 +2,21 @@ import java.util.Scanner;
 import java.time.Year;
 public class Conditional {
     public static void main(String[] args) {
-        //1. Relational Operators ---All the Operators always return boolean results 
+                //1. Relational Operators ---All the Operators always return boolean results 
         //2. To combine 2 or more conditional statements we use the logcical operators 
         //Conditional statements------IF, IF-ELSE 
         int a=5,b=10,c=15; float d=5.4f,e=5.0f;
         System.out.println(a<b&&a>c);//false
         System.out.println(a<d);//true
         System.out.println(a==e);//true
+        // 0 Check which of the three numbers is maximum  logic-1 (optimised)
+        
         if(a>0&&b>0&&c>0){
             if(a>b&&a>c){
-                
-System.out.println("the greatest is a = "+a);
+                System.out.println("the greatest is a = "+a);
             }
                 
-                else if(b>c){
+                else if(b>a&&b>c){
                   System.out.println("the greatest is b = "+b);  
                 }
             
@@ -27,8 +28,6 @@ System.out.println("the greatest is a = "+a);
     else {
         System.out.println("Any one of the number is negative (Only positive numbers accepted)");
     }
-
-
 
 //1. To check if the number entered is odd or even 
 Scanner sc=new Scanner(System.in);
@@ -106,12 +105,8 @@ for (i=0;i<num;i++){
     System.out.println((i+1)+"\t"+m1[i]+"\t"+m2[i]+"\t"+m3[i]+"\t"+avg[i]+"\t"+grade[i]);
 }
 
-
-
-
-
-
 //5. To find Leap year 
+
 System.out.println("Enter the Year to be checked");
 int year =sc.nextInt();
 if(year%4==0||year%400==0&& year%100!=0){
@@ -123,6 +118,7 @@ else{
 
 
 // 6.  In java their are In built classes to check Leap and not leap 
+
 boolean isLeap1=Year.isLeap(2000);
 if(isLeap1){
     System.out.println("The Year entered is Leap year");
@@ -222,6 +218,28 @@ else {
 }
 
 
+
+
+
+sc.close();
 }
 }
 
+// Greatest of three number 
+
+ // int greatest ;
+        // if (a>0&&b>0&&c>0){
+
+        //     if(a>b){
+                
+        //         greatest= a>c?a:c; 
+        //     }
+        //     else{
+        //         greatest=b>c?b:c;
+        //     }
+        // System.out.println("The greatest number is"+greatest);
+        //     }
+        //     else{
+        //         System.out.println("Enter valid positive numbers ");
+        //     }
+        
