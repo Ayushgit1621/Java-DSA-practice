@@ -4,7 +4,7 @@ My personal repository for mastering Data Structures, Algorithms, and problem-so
 
 ##  Current Focus: Arrays Module
 
-### 🗂️ Local Folder Directory
+
 ### 🗂️ Local Folder Directory
 ```text
 Java-DSA-practice/
