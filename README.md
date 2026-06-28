@@ -10,8 +10,7 @@ My personal repository for mastering Data Structures, Algorithms, and problem-so
 Java-DSA-practice/
 ├── 📁 Basics/                # Java-basics, loops, and memory fundamentals
 
-
-
+```
 
 ##  Local Git & VS Code Workflow
 
@@ -25,7 +24,9 @@ git commit -m "feat(arrays): add Two Sum solution with optimal approach"
 
 # 3. Push to GitHub
 git push origin main
-```
+
+
+
 
 ##  Author
 
