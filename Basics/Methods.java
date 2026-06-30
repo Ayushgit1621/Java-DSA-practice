@@ -10,6 +10,8 @@ public class Methods {
 
         int ans = sum2(20,30);// pass by value 
         System.out.println("sum of a and b is :"+ans);
+        String msg = myGreet("Ayush Dubey");
+        System.out.println(msg);
     }
 
     static int sum(){
@@ -20,8 +22,6 @@ public class Methods {
         n2=in.nextInt();
         int s= n1+n2;
         return s; // this is the end point of the function 
-
-        String msg = myGreet("Ayush Dubey")
     }
     /*
     Access modifiers| return type|name (arguments){
@@ -33,7 +33,8 @@ public class Methods {
         String greeting = "Hii !! how are you";
         return greeting;
     }
-    static String mygGreet(String name){
+    
+    static String myGreet(String name){
         String msg = "Hii"+ name + "!! how are you";
         return msg;
     }
@@ -46,4 +47,5 @@ public class Methods {
     }
 
 }
+
 
