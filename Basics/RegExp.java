@@ -45,7 +45,7 @@ XZ-------exactly XZ
         {X}--------X times  
         {X,Y}------Between X and Y time  
  */
-String word="abcdef";
+
 String word1="abCCdef";
 String word2="ab45def";
 String word3="";

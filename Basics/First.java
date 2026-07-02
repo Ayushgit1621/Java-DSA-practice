@@ -21,5 +21,6 @@ public class First{
             sc.useRadix(2);
             int z=sc.nextInt();//a binary code of a number is enetered 
             System.out.println(z);// the decimal value of the number is obtained
+            sc.close();
         }
     }

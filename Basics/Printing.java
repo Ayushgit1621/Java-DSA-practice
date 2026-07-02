@@ -45,8 +45,8 @@ public class Printing {
          System.out.printf("%06f\n",e);//
 
          String Str="Ayush";
-         System.out.printf("%20s",str);//takes 20 places to print Ayush (Right Aligned)
-         System.out.printf("%-20s",str);//takes 20 places to print Ayush but spaces at the end (Left aligned)
+         System.out.printf("%20s"+Str);//takes 20 places to print Ayush (Right Aligned)
+         System.out.printf("%-20s"+Str);//takes 20 places to print Ayush but spaces at the end (Left aligned)
          
     }
 }

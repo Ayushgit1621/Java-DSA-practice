@@ -30,6 +30,6 @@ public class RgExpChlng2 {
             {
                 System.out.println("The date is not in correct format");
 }
-            
+    sc.close();        
     }
 }

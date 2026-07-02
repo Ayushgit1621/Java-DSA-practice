@@ -17,6 +17,6 @@ public class Cuboid{
         System.out.println("The total area of the cuboid is: "+area);
         System.out.println("The total volume of the cuboid is: "+vol);
 
-
+in.close();
     }
 }
