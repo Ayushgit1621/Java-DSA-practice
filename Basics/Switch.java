@@ -83,13 +83,6 @@ public class Switch {
             default->System.out.println("Enter correct employee id");
         }
 
-
-
-
-
-
-
-
         sc.close();
     }
 }
