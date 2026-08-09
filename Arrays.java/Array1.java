@@ -46,5 +46,6 @@ public class Array1 {
         }
         static void change(int[] nums){
             nums[0]= 99;
+            
         }
 }
