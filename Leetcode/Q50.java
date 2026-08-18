@@ -1,5 +1,3 @@
-package Leetcode;
-
 class Q50 {
     public double myPow(double x, int n) {
         long N =n;
