@@ -14,3 +14,22 @@ public class Q121 {
     }
     
 }
+
+/* Thru recursion 
+
+class Solution {
+    public int maxProfit(int[] prices) {
+        return findProfit(prices,0,prices[0],0);
+    }
+    public int findProfit(int[] prices, int index, int minPrice, int maxProfit){
+        if(index==prices.length){
+            return maxProfit;
+        }
+        minPrice=Math.min(minPrice,prices[index]);
+        int profit =prices[index]-minPrice;
+        maxProfit=Math.max(maxProfit,profit);
+        return findProfit(prices,index+1,minPrice,maxProfit);
+    }
+}
+
+*/
